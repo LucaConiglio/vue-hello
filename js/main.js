@@ -1,4 +1,5 @@
 const { createApp } = Vue;
+const inputvalue = document.querySelector(".input-el")
 
 createApp({
     // data: function () {}
@@ -11,7 +12,9 @@ createApp({
         resizing : "resizing",
         boxImg : "boxImg",
         altImg : "uomo al computer",
-        immagine : "https://s3-eu-central-1.amazonaws.com/social-academy-blog/wp-content/uploads/2017/03/8-modi-per-diventare-migliore-programmatore-social-academy-2_720.jpg"
+        immagine : "https://s3-eu-central-1.amazonaws.com/social-academy-blog/wp-content/uploads/2017/03/8-modi-per-diventare-migliore-programmatore-social-academy-2_720.jpg",
+        inputEl : "input-el"
       };
     },
+    methods: {}
   }).mount("#app")

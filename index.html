@@ -15,6 +15,9 @@
             <h1 v-bind:class="h1red">{{titolo}}</h1>
             <div :class="resizing">
                 <img :class="boxImg"  :src="immagine" :alt="altImg">
+                <p>Cambia il titolo in alto riscrivendolo quì sotto!!!!</p>
+                <input :class="inputEl" type="text" v-model="titolo"></input>
+                
             </div>
             
         </div>
