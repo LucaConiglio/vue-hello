@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.titolo{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: line-through rgba(255, 255, 255, 0.345);
+}
+.full{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    
+}
+.resizing{
+    text-align: center;
+}
+.boxImg{
+    margin-top: 6rem;
+    box-shadow: 1px 4px 20px gray,1px 4px 20px rgb(244, 244, 244);
+    border-radius: 15px;
+}
