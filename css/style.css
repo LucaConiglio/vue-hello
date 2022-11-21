@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .titolo{
@@ -10,6 +11,7 @@
     text-align: center;
     margin-top: 2rem;
     text-decoration: line-through rgba(255, 255, 255, 0.345);
+   
 }
 .full{
     height: 100vh;
@@ -39,4 +41,13 @@ p{
     box-shadow: 2px 2px 6px blue , 2px 2px 6px rgb(255, 255, 255);
     display: block;
     margin-bottom: 2rem;
+    color: white;
+}
+.gif{
+    position: absolute;
+    top: 210px; 
+    right: 40px;
+    width: 400px;
+    aspect-ratio: 1/1;
+   border-radius: 50%;
 }
